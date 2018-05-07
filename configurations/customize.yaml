@@ -1,0 +1,70 @@
+# Groups
+group.all_automations:
+  friendly_name: Automations
+  hidden: false
+group.all_scripts:
+  friendly_name: Scripts
+  hidden: false
+# Media players
+media_player.bedroom:
+  friendly_name: Chromecast - Bedroom
+# Sony Bravia TV
+media_player.xbr49x835c:
+  friendly_name: Chromecast - XBR-49X835C
+  hidden: true
+media_player.sony_bravia_tv:
+  friendly_name: XBR-49X835C
+  icon: mdi:television
+# Yamaha A/V Receiver
+media_player.yamaha_receiver_living_room:
+  friendly_name: "A/V Receiver"
+  icon: mdi:play-network
+# Sun
+sun.sun:
+  friendly_name: "Sun's Position"
+# Sensors
+sensor.worldclock_sensor:
+  friendly_name: Current Time
+# SABnzbd
+sensor.sabnzbd_left:
+  friendly_name: "[SABnzbd] Left to Download"
+sensor.sabnzbd_speed:
+  friendly_name: "[SABnzbd] Download Speed"
+  icon: mdi:download
+sensor.sabnzbd_status:
+  friendly_name: "[SABnzbd] Status"
+# Weather
+sensor.pws_alerts:
+  friendly_name: Alerts
+sensor.pws_feelslike_c:
+  friendly_name: "Feels Like"
+sensor.pws_weather_1h:
+  friendly_name: "1 Hour Forecast"
+sensor.pws_weather_1d_metric:
+  friendly_name: "24 Hour Forecast"
+# Hue lights
+light.bedroom:
+  friendly_name: "[Grouped Lights] Bedroom"
+light.bedroom__color:
+  friendly_name: "[Bedroom] Hue Color 1"
+light.hgrp0000000034:
+  hidden: true
+light.hgrp0000000110:
+  hidden: true
+light.kitchen:
+  friendly_name: "[Grouped Lights] Kitchen"
+light.kitchen__color:
+  friendly_name: "[Kitchen] Hue Color 1"
+light.living:
+  friendly_name: "[Grouped Lights] Living Room"
+light.living__color:
+  friendly_name: "[Living] Hue Color 1"
+light.main:
+  friendly_name: "[Grouped Lights] Main"
+light.main__color__1:
+  friendly_name: "[Main] Hue Color 1"
+light.main__color__2:
+  friendly_name: "[Main] Hue Color 2"
+# Harmony remote
+remote.living_room:
+  friendly_name: "Harmony Hub"

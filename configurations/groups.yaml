@@ -1,0 +1,46 @@
+people:
+  name: People Living Here
+  entities:
+    - !secret person1
+    - !secret person2
+room_living:
+  name: Living Room
+  entities:
+    - light.living
+    - light.living__color
+    - media_player.yamaha_receiver_living_room
+    - remote.living_room
+    - media_player.sony_bravia_tv
+    - media_player.xbr49x835c
+room_kitchen:
+  name: Kitchen
+  entities:
+    - light.kitchen
+    - light.kitchen__color
+room_main:
+  name: Entrance
+  entities:
+    - light.main
+    - light.main__color__1
+    - light.main__color__2
+room_bedroom:
+  name: Bedroom
+  entities:
+    - light.bedroom
+    - light.bedroom__color
+    - media_player.bedroom
+weather_time:
+  name: "Time & Weather"
+  entities:
+    - sun.sun
+    - sensor.worldclock_sensor
+    - sensor.pws_alerts
+    - sensor.pws_feelslike_c
+    - sensor.pws_weather_1h
+    - sensor.pws_weather_1d_metric
+downloaders:
+  name: Download Clients
+  entities:
+    - sensor.sabnzbd_left
+    - sensor.sabnzbd_speed
+    - sensor.sabnzbd_status
