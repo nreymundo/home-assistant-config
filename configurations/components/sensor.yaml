@@ -1,0 +1,17 @@
+  - platform: wunderground
+    api_key: !secret wu_apikey
+    monitored_conditions:
+      - alerts
+      - feelslike_c
+      - weather_1h
+      - weather_1d_metric
+  - platform: sabnzbd
+    host: !secret sabnzbd_ip
+    port: !secret sabnzbd_port
+    api_key: !secret sabnzbd_apikey
+    monitored_variables:
+    - 'current_status'
+    - 'speed'
+    - 'queue_remaining'
+  - platform: worldclock
+    time_zone: !secret time_zone

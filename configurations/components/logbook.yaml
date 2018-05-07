@@ -1,0 +1,11 @@
+  exclude:
+    entities:
+      - sensor.pws_alerts
+      - sensor.pws_feelslike_c
+      - sensor.pws_weather_1h
+      - sensor.worldclock_sensor
+      - sensor.pws_weather_1d_metric
+      - sensor.sabnzbd_status
+      - group.downloaders
+    domains:
+      - sun

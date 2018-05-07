@@ -1,0 +1,11 @@
+  - platform: cast
+  - platform: braviatv
+    host: !secret sonytv_ip
+  - platform: yamaha
+    host: !secret yamaha_receiver_ip
+    source_names:
+      HDMI1: "Cable"
+    zone_ignore:
+      - "Zone_2"
+    zone_names:
+      Main_Zone: "Living Room"

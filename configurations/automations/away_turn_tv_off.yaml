@@ -1,0 +1,13 @@
+  - alias: 'Turn TV off when everyone leaves'
+    trigger:
+      - platform: state
+        entity_id: group.people
+        from: 'home'
+        to: 'not_home'
+    condition:
+      - condition: state
+        entity_id: group.people
+        state: 'not_home'
+    action:
+      service: remote.turn_off
+      entity_id: remote.living_room

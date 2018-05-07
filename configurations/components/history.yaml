@@ -1,0 +1,6 @@
+  exclude:
+    entities:
+      - sensor.worldclock_sensor
+    domains:
+      - group
+      - device_tracker

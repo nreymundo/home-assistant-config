@@ -1,0 +1,5 @@
+  - name: Dojo
+    latitude: !secret dojo_latitude
+    longitude: !secret dojo_longitude
+    radius: 100
+    icon: mdi:karate
