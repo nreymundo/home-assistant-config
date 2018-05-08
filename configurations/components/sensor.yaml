@@ -3,7 +3,6 @@
     monitored_conditions:
       - alerts
       - feelslike_c
-      - weather_1h
       - weather_1d_metric
   - platform: sabnzbd
     host: !secret sabnzbd_ip
