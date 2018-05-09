@@ -24,10 +24,10 @@ frontend:
 config:
 
 http:
-  # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
-  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  # base_url: hass.laucien.com:8123
+  api_password: !secret http_password
+  use_x_forwarded_for: True
+  ip_ban_enabled: True
+  login_attempts_threshold: 3
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -38,8 +38,6 @@ updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   # include_used_components: true
 
-# Discover some devices automatically
-# discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
