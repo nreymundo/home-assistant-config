@@ -1,3 +1,8 @@
+  - platform: plex
+    name: 'Home Media Center'
+    host: !secret plex_ip
+    port: !secret plex_port
+    token: !secret plex_token
   - platform: wunderground
     api_key: !secret wu_apikey
     monitored_conditions:

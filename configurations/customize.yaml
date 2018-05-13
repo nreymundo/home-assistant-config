@@ -4,6 +4,7 @@ group.all_automations:
   hidden: false
 group.all_scripts:
   friendly_name: Scripts
+  control: hidden
   hidden: false
 # Media players
 media_player.bedroom:
@@ -25,6 +26,8 @@ sun.sun:
 # Sensors
 sensor.worldclock_sensor:
   friendly_name: Current Time
+sensor.home_media_center:
+  icon: mdi:play-box-outline
 # SABnzbd
 sensor.sabnzbd_left:
   friendly_name: "[SABnzbd] Left to Download"

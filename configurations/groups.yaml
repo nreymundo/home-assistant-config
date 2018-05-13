@@ -40,8 +40,9 @@ weather_time:
     - sensor.pws_weather_1h
     - sensor.pws_weather_1d_metric
 downloaders:
-  name: Download Clients
+  name: Download and Media Clients
   entities:
+    - sensor.home_media_center
     - sensor.sabnzbd_left
     - sensor.sabnzbd_speed
     - sensor.sabnzbd_status

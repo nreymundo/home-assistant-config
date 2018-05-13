@@ -5,6 +5,8 @@
     host: !secret yamaha_receiver_ip
     source_names:
       HDMI1: "Cable"
+      HDMI2: "Playstation 4"
+      HDMI3: "Nintendo Switch"
     zone_ignore:
       - "Zone_2"
     zone_names:

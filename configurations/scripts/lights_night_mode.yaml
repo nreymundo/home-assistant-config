@@ -1,0 +1,10 @@
+  night_mode:
+    alias: "[Lights] Night mode"
+    sequence:
+      - service: script.turn_on
+        entity_id: script.lights_off
+      - delay: '00:00:05'
+      - service: hue.hue_activate_scene
+        data:
+          group_name: "Main"
+          scene_name: "Night"

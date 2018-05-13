@@ -39,6 +39,10 @@ media_player.galaxy_s8:
   platform: plex
   unique_id: 67484d84c9b24a46-com-plexapp-android
 media_player.plex_plex_sgd0qex1s46ptf0pkxxjjenn:
-  name: 
+  name:
   platform: plex
   unique_id: sgd0qex1s46ptf0pkxxjjenn
+media_player.chrome_2:
+  name:
+  platform: plex
+  unique_id: kwfepp9rkmc30eq3sb7jy89m
