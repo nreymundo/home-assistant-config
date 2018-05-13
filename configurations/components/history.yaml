@@ -4,3 +4,5 @@
     domains:
       - group
       - device_tracker
+      - script
+      - automation

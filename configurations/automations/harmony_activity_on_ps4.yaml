@@ -1,0 +1,25 @@
+  - alias: 'Start gaming activity when PS4 turns on'
+    trigger:
+      platform: state
+      entity_id: media_player.playstation_4
+      from: 'off'
+      to: 'idle'
+    condition:
+      - condition: state
+        entity_id: sensor.living_room_activity
+        state: 'PowerOff'
+    action:
+      service: remote.turn_on
+      data:
+        activity: 'Play PS4'
+  - alias: 'Stop gaming activity when PS4 turns off'
+    trigger:
+      platform: state
+      entity_id: media_player.playstation_4
+      to: 'off'
+    condition:
+      - condition: state
+        entity_id: sensor.living_room_activity
+        state: 'Play PS4'
+    action:
+      service: remote.turn_off

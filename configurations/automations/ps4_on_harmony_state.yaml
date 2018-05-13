@@ -3,8 +3,13 @@
       - platform: state
         entity_id: remote.living_room
     condition:
-      condition: template
-      value_template: '{{ trigger.to_state.attributes.current_activity == "Play PS4" }}'
+      condition: and
+      conditions:
+        - condition: template
+          value_template: '{{ trigger.to_state.attributes.current_activity == "Play PS4" }}'
+        - condition: state
+          entity_id: media_player.playstation_4
+          state: 'off'
     action:
       service: script.turn_on
       entity_id: script.ps4_on
