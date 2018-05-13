@@ -9,3 +9,5 @@
       - "Zone_2"
     zone_names:
       Main_Zone: "Living Room"
+  - platform: ps4
+    host: !secret ps4_ip

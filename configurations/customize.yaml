@@ -34,8 +34,6 @@ sensor.sabnzbd_speed:
 sensor.sabnzbd_status:
   friendly_name: "[SABnzbd] Status"
 # Weather
-sensor.pws_alerts:
-  friendly_name: Alerts
 sensor.pws_feelslike_c:
   friendly_name: "Feels Like"
 sensor.pws_weather_1d_metric:

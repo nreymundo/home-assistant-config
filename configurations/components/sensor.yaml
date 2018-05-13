@@ -1,7 +1,6 @@
   - platform: wunderground
     api_key: !secret wu_apikey
     monitored_conditions:
-      - alerts
       - feelslike_c
       - weather_1d_metric
   - platform: sabnzbd

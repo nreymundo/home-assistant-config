@@ -1,0 +1,7 @@
+  ps4_on:
+    alias: "[PS4] Turn On"
+    sequence:
+      - service: shell_command.ps4_waker
+        data_template:
+          ip: !secret ps4_ip
+          command: ''
