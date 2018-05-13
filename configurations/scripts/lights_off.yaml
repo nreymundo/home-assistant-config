@@ -1,5 +1,5 @@
   lights_off:
-    alias: "Turn all lights off"
+    alias: "[Lights] Turn all lights off"
     sequence:
       - service: light.turn_off
         data:

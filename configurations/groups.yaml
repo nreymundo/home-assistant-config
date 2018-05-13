@@ -6,6 +6,7 @@ people:
 room_living:
   name: Living Room
   entities:
+    - sensor.living_room_activity
     - light.living
     - light.living__color
     - media_player.yamaha_receiver_living_room

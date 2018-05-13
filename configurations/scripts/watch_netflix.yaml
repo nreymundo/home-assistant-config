@@ -1,0 +1,6 @@
+  netflix_activity:
+    alias: "[Remote] Watch Netflix"
+    sequence:
+      - service: remote.turn_on
+        data:
+          activity: 33131838 # Watch Netflix activity ID

@@ -1,0 +1,4 @@
+  harmony_sync:
+    alias: "[Remote] Trigger Harmony Sync"
+    sequence:
+      - service: remote.harmony_sync
