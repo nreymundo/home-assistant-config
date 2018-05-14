@@ -72,6 +72,7 @@ media_player: !include configurations/components/media_player.yaml
 mqtt: !include configurations/components/mqtt.yaml
 device_tracker: !include configurations/components/device_tracker.yaml
 shell_command: !include configurations/components/shell_command.yaml
+influxdb: !include configurations/components/influxdb.yaml
 group: !include configurations/groups.yaml
 zone: !include_dir_merge_list configurations/zones
 automation: !include_dir_merge_list configurations/automations 
