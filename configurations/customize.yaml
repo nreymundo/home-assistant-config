@@ -31,6 +31,7 @@ sensor.home_media_center:
 # SABnzbd
 sensor.sabnzbd_left:
   friendly_name: "[SABnzbd] Left to Download"
+  icon: mdi:disk
 sensor.sabnzbd_speed:
   friendly_name: "[SABnzbd] Download Speed"
   icon: mdi:download

@@ -23,6 +23,12 @@ frontend:
 # Enables configuration UI
 config:
 
+# Configures logging levels
+logger:
+  default: critical
+  logs:
+    homeassistant.components.http.ban: warning
+
 http:
   api_password: !secret http_password
   use_x_forwarded_for: True
