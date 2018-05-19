@@ -67,6 +67,11 @@ tts:
 # Cloud
 cloud:
 
+# MQTT Broker
+#mqtt: !include configurations/components/mqtt.yaml
+mqtt:
+  broker: !secret mqtt_ip
+
 # IFTTT webhooks
 ifttt: !include configurations/components/ifttt.yaml
 # Phillips Hue lights
@@ -75,7 +80,6 @@ notify: !include configurations/components/notify.yaml
 sensor: !include configurations/components/sensor.yaml
 remote: !include configurations/components/remote.yaml
 media_player: !include configurations/components/media_player.yaml
-mqtt: !include configurations/components/mqtt.yaml
 device_tracker: !include configurations/components/device_tracker.yaml
 shell_command: !include configurations/components/shell_command.yaml
 influxdb: !include configurations/components/influxdb.yaml
