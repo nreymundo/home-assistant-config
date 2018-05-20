@@ -77,6 +77,7 @@ ifttt: !include configurations/components/ifttt.yaml
 # Phillips Hue lights
 hue: !include configurations/components/hue.yaml
 notify: !include configurations/components/notify.yaml
+panel_iframe: !include configurations/components/iframes.yaml
 sensor: !include configurations/components/sensor.yaml
 remote: !include configurations/components/remote.yaml
 media_player: !include configurations/components/media_player.yaml

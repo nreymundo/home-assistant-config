@@ -1,0 +1,8 @@
+  router:
+    title: 'Router Dashboard'
+    url: !secret router_dashboard_address
+    icon: mdi:router-wireless
+  grafana:
+    title: 'Grafana Dashboard'
+    url: !secret grafana_dashboard_address
+    icon: mdi:view-dashboard

@@ -4,7 +4,3 @@
   username: !secret influxdb_username
   password: !secret influxdb_password
   max_retries: 3
-  default_measurement: state
-  exclude:
-    domains:
-       - automation
