@@ -3,8 +3,8 @@
     host: !secret plex_ip
     port: !secret plex_port
     token: !secret plex_token
-  - platform: wunderground
-    api_key: !secret wu_apikey
+# - platform: wunderground
+#   api_key: !secret wu_apikey
     monitored_conditions:
       - feelslike_c
       - weather_1d_metric
@@ -23,7 +23,3 @@
       living_room_activity:
         value_template: '{{ states.remote.living_room.attributes.current_activity }}'
         friendly_name: 'Current Activity'
-  - platform: fail2ban
-    jails:
-      - ssh
-      - hass-iptables

@@ -54,9 +54,6 @@ history: !include configurations/components/history.yaml
 # View all events in a logbook
 logbook: !include configurations/components/logbook.yaml
 
-# Enables a map showing the location of tracked devices
-map:
-
 # Track the sun
 sun:
 
@@ -72,19 +69,39 @@ cloud:
 mqtt:
   broker: !secret mqtt_ip
 
+# Open Weather Map integration
+weather:
+  - platform: openweathermap
+    api_key: !secret open_weather_api
+  
 # IFTTT webhooks
-ifttt: !include configurations/components/ifttt.yaml
-# Phillips Hue lights
-hue: !include configurations/components/hue.yaml
-notify: !include configurations/components/notify.yaml
-panel_iframe: !include configurations/components/iframes.yaml
-sensor: !include configurations/components/sensor.yaml
-remote: !include configurations/components/remote.yaml
-media_player: !include configurations/components/media_player.yaml
+ifttt: 
+  key: !secret ifttt_key
+  
+
+# Folder containing automation rules
+automation: !include_dir_merge_list configurations/automations
+# Config file for device tracking entries
 device_tracker: !include configurations/components/device_tracker.yaml
-shell_command: !include configurations/components/shell_command.yaml
-influxdb: !include configurations/components/influxdb.yaml
+# Config file for defining groups
 group: !include configurations/groups.yaml
-zone: !include_dir_merge_list configurations/zones
-automation: !include_dir_merge_list configurations/automations 
+# Philip Hue settings file
+hue: !include configurations/components/hue.yaml
+# InfluxDB setting file
+influxdb: !include configurations/components/influxdb.yaml
+# Config file for media players
+media_player: !include configurations/components/media_player.yaml
+# Notification services
+notify: !include configurations/components/notify.yaml
+# List of iFrames to add to the UI
+panel_iframe: !include configurations/components/iframes.yaml
+# Remotes
+remote: !include configurations/components/remote.yaml
+# Folder containing scripts
 script: !include_dir_merge_named configurations/scripts
+# Sensor entries and configurations
+sensor: !include configurations/components/sensor.yaml
+# List of shell commands
+shell_command: !include configurations/components/shell_command.yaml
+# Geographical zones
+zone: !include_dir_merge_list configurations/zones

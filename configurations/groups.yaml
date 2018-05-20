@@ -36,9 +36,10 @@ weather_time:
   entities:
     - sun.sun
     - sensor.worldclock_sensor
-    - sensor.pws_feelslike_c
-    - sensor.pws_weather_1h
-    - sensor.pws_weather_1d_metric
+#   - sensor.pws_feelslike_c
+#   - sensor.pws_weather_1h
+#   - sensor.pws_weather_1d_metric
+    - weather.openweathermap
 downloaders:
   name: Download and Media Clients
   entities:
