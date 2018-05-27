@@ -6,3 +6,7 @@
     title: 'Grafana Dashboard'
     url: !secret grafana_dashboard_address
     icon: mdi:view-dashboard
+  nodered:
+    title: 'Node-RED Instace'
+    url: !secret nodered_address
+    icon: mdi:sitemap
