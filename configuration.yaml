@@ -99,6 +99,8 @@ panel_iframe: !include configurations/components/iframes.yaml
 remote: !include configurations/components/remote.yaml
 # Folder containing scripts
 script: !include_dir_merge_named configurations/scripts
+# SABnzbd settings
+sabnzbd: !include configurations/components/sabnzbd.yaml
 # Sensor entries and configurations
 sensor: !include configurations/components/sensor.yaml
 # List of shell commands

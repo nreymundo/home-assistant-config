@@ -45,5 +45,6 @@ downloaders:
   entities:
     - sensor.home_media_center
     - sensor.sabnzbd_left
+    - sensor.sabnzbd_queue_count
     - sensor.sabnzbd_speed
     - sensor.sabnzbd_status

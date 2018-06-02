@@ -1,0 +1,8 @@
+  host: !secret sabnzbd_ip
+  port: !secret sabnzbd_port
+  api_key: !secret sabnzbd_apikey
+  sensors:
+    - current_status
+    - speed
+    - queue_count
+    - queue_remaining

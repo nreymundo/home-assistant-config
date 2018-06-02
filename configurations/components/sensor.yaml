@@ -8,14 +8,6 @@
     monitored_conditions:
       - feelslike_c
       - weather_1d_metric
-  - platform: sabnzbd
-    host: !secret sabnzbd_ip
-    port: !secret sabnzbd_port
-    api_key: !secret sabnzbd_apikey
-    monitored_variables:
-    - current_status
-    - speed
-    - queue_remaining
   - platform: worldclock
     time_zone: !secret time_zone
   - platform: template

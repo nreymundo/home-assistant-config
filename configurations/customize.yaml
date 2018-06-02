@@ -30,8 +30,11 @@ sensor.home_media_center:
   icon: mdi:play-box-outline
 # SABnzbd
 sensor.sabnzbd_left:
-  friendly_name: "[SABnzbd] Left to Download"
+  friendly_name: "[SABnzbd] Download queue size remaining"
   icon: mdi:disk
+sensor.sabnzbd_queue_count:
+  friendly_name: "[SABnzbd] Items remaining"
+  icon: mdi:format-list-numbers
 sensor.sabnzbd_speed:
   friendly_name: "[SABnzbd] Download Speed"
   icon: mdi:download
