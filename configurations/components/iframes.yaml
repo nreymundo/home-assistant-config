@@ -7,6 +7,6 @@
     url: !secret grafana_dashboard_address
     icon: mdi:view-dashboard
   nodered:
-    title: 'Node-RED Instace'
+    title: 'Node-RED Instance'
     url: !secret nodered_address
     icon: mdi:sitemap
