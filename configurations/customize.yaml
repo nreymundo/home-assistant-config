@@ -45,29 +45,48 @@ sensor.pws_feelslike_c:
   friendly_name: "Feels Like"
 sensor.pws_weather_1d_metric:
   friendly_name: "24 Hour Forecast"
-# Hue lights
-light.bedroom:
-  friendly_name: "[Grouped Lights] Bedroom"
-light.bedroom__color:
-  friendly_name: "[Bedroom] Hue Color 1"
+# Hue stuff
 light.hgrp0000000034:
   hidden: true
 light.hgrp0000000110:
   hidden: true
+## Bedroom
+light.bedroom:
+  friendly_name: "Lights"
+light.bedroom__color:
+  friendly_name: "Hue Color 1"
+  hidden: true
+sensor.bedroom__switch:
+  friendly_name: "Light Switch"
+## Kitchen
 light.kitchen:
-  friendly_name: "[Grouped Lights] Kitchen"
+  friendly_name: "Lights"
 light.kitchen__color:
-  friendly_name: "[Kitchen] Hue Color 1"
+  friendly_name: "Hue Color 1"
+  hidden: true
+sensor.kitchen__switch:
+  friendly_name: "Light Switch"
+sensor.kitchen_motion_sensor:
+  friendly_name: "Motion Sensor"
+## Living Room
 light.living:
-  friendly_name: "[Grouped Lights] Living Room"
+  friendly_name: "Lights"
 light.living__color:
-  friendly_name: "[Living] Hue Color 1"
+  friendly_name: "Hue Color 1"
+  hidden: true
+sensor.living__switch:
+  friendly_name: "Light Switch"
+## Entrance
 light.main:
-  friendly_name: "[Grouped Lights] Main"
+  friendly_name: "Lights"
 light.main__color__1:
-  friendly_name: "[Main] Hue Color 1"
+  friendly_name: "Hue Color 1"
+  hidden: true
 light.main__color__2:
-  friendly_name: "[Main] Hue Color 2"
+  friendly_name: "Hue Color 2"
+  hidden: true
+sensor.main__switch:
+  friendly_name: "Light Switch"
 # Harmony remote
 remote.living_room:
   friendly_name: "Harmony Hub"

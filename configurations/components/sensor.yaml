@@ -15,3 +15,6 @@
       living_room_activity:
         value_template: '{{ states.remote.living_room.attributes.current_activity }}'
         friendly_name: 'Current Activity'
+  - platform: hue
+    ip_address: !secret hue_ip
+    token: !secret hue_token
