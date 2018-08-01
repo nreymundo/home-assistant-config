@@ -18,3 +18,15 @@
   - platform: hue
     ip_address: !secret hue_ip
     token: !secret hue_token
+  - platform: systemmonitor
+    resources:
+      - type: swap_use_percent
+      - type: disk_use_percent
+        arg: /
+      - type: memory_use_percent
+      - type: memory_free
+      - type: memory_use
+      - type: load_1m
+      - type: load_5m
+      - type: load_15m
+      - type: last_boot

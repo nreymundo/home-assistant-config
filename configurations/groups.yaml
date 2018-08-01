@@ -53,3 +53,15 @@ downloaders:
     - sensor.sabnzbd_queue_count
     - sensor.sabnzbd_speed
     - sensor.sabnzbd_status
+system_monitor:
+  name: System Monitor
+  entities:
+    - sensor.last_boot
+    - sensor.load_1m
+    - sensor.load_5m
+    - sensor.load_15m
+    - sensor.disk_use_percent_
+    - sensor.swap_use_percent
+    - sensor.memory_use_percent
+    - sensor.memory_free
+    - sensor.memory_use
