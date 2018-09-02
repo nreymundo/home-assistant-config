@@ -1,48 +1,60 @@
 media_player.xbr49x835c:
+  config_entry_id:
   name:
   platform: cast
   unique_id: 18395659-6529-ae83-3cdc-8c0f6505bd8f
 light.living__color:
+  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:49:26-0b
 light.main__color__2:
+  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:3e:cd-0b
 light.bedroom__color:
+  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:43:44-0b
 light.kitchen__color:
+  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
   name:
   platform: hue
   unique_id: 00:17:88:01:02:72:7e:1c-0b
 light.main__color__1:
+  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:4a:a1-0b
 media_player.bedroom:
+  config_entry_id:
   name:
   platform: cast
   unique_id: d665b9e1-4834-03a3-789d-84908be7b098
 media_player.chrome:
+  config_entry_id:
   name:
   platform: plex
   unique_id: eipgnalc6ef0ato7glsiot3z
 media_player.bravia_4k_2015:
+  config_entry_id:
   name:
   platform: plex
   unique_id: 89b367757adb54b7-com-plexapp-android
 media_player.galaxy_s8:
+  config_entry_id:
   name:
   platform: plex
   unique_id: 67484d84c9b24a46-com-plexapp-android
 media_player.plex_plex_sgd0qex1s46ptf0pkxxjjenn:
+  config_entry_id:
   name:
   platform: plex
   unique_id: sgd0qex1s46ptf0pkxxjjenn
 media_player.chrome_2:
+  config_entry_id:
   name:
   platform: plex
   unique_id: kwfepp9rkmc30eq3sb7jy89m

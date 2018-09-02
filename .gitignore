@@ -8,6 +8,8 @@
 !custom_components/sensor/*
 !custom_components/media_player/*
 !.gitignore
+!travis_stuff
+!travis_stuff/*
 secrets.yaml
 known_devices.yaml
 __pycache__
