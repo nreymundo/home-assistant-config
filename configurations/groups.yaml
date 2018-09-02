@@ -36,6 +36,7 @@ room_bedroom:
     - light.bedroom__color
     - media_player.bedroom
     - sensor.bedroom__switch
+    - sensor.bedroom_motion_sensor
 weather_time:
   name: "Time & Weather"
   entities:

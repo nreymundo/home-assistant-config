@@ -4,27 +4,27 @@ media_player.xbr49x835c:
   platform: cast
   unique_id: 18395659-6529-ae83-3cdc-8c0f6505bd8f
 light.living__color:
-  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
+  config_entry_id: f2963e3538814dc09f45db87ab789061
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:49:26-0b
 light.main__color__2:
-  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
+  config_entry_id: f2963e3538814dc09f45db87ab789061
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:3e:cd-0b
 light.bedroom__color:
-  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
+  config_entry_id: f2963e3538814dc09f45db87ab789061
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:43:44-0b
 light.kitchen__color:
-  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
+  config_entry_id: f2963e3538814dc09f45db87ab789061
   name:
   platform: hue
   unique_id: 00:17:88:01:02:72:7e:1c-0b
 light.main__color__1:
-  config_entry_id: 72d435615fee437097ee3f1b1a14f6a3
+  config_entry_id: f2963e3538814dc09f45db87ab789061
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:4a:a1-0b
