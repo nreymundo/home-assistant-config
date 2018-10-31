@@ -58,8 +58,6 @@ light.bedroom__color:
   hidden: true
 sensor.bedroom__switch:
   friendly_name: "Light Switch"
-sensor.bedroom_motion_sensor:
-  friendly_name: "Motion Sensor"
 ## Kitchen
 light.kitchen:
   friendly_name: "Lights"
