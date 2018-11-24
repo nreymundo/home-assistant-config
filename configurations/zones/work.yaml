@@ -1,0 +1,5 @@
+  - name: Work
+    latitude: !secret nico_work_latitude
+    longitude: !secret nico_work_longitude
+    radius: 100
+    icon: mdi:briefcase

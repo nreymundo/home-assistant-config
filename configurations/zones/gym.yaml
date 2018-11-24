@@ -1,0 +1,5 @@
+  - name: Gym
+    latitude: !secret nico_gym_latitude
+    longitude: !secret nico_gym_longitude
+    radius: 100
+    icon: mdi:dumbbell

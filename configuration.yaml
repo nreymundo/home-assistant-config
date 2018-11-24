@@ -65,11 +65,6 @@ tts:
 # Cloud
 cloud:
 
-# MQTT Broker
-#mqtt: !include configurations/components/mqtt.yaml
-mqtt:
-  broker: !secret mqtt_ip
-
 # Open Weather Map integration
 weather:
   - platform: openweathermap
@@ -84,6 +79,8 @@ ifttt:
 automation: !include_dir_merge_list configurations/automations
 # Config file for device tracking entries
 device_tracker: !include configurations/components/device_tracker.yaml
+# Config file for location zones used with device tracking
+zone: !include_dir_merge_list configurations/zones
 # Config file for defining groups
 group: !include configurations/groups.yaml
 # Philip Hue settings file
@@ -106,5 +103,3 @@ sabnzbd: !include configurations/components/sabnzbd.yaml
 sensor: !include configurations/components/sensor.yaml
 # List of shell commands
 shell_command: !include configurations/components/shell_command.yaml
-# Geographical zones
-zone: !include_dir_merge_list configurations/zones

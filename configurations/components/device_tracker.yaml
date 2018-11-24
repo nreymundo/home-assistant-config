@@ -3,18 +3,9 @@
     username: !secret router_username
     ssh_key: !secret router_sshkey
     interval_seconds: 10
-    consider_home: 0:05
+    consider_home: 0:10
     new_device_defaults:
       track_new_devices: false
       hide_if_away: false
-  - platform: owntracks
-    max_gps_accuracy: 100
-    waypoints: True
-    mqtt_topic: "owntracks/#"
-    events_only: False
-    waypoint_whitelist:
-      - nico
-    region_mapping:
-      home: home
-      work: Mulesoft
-      dojo: Dojo
+
+  - platform: owntracks_http
