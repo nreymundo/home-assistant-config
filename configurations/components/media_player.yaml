@@ -1,4 +1,3 @@
-  - platform: cast
   - platform: braviatv
     host: !secret sonytv_ip
   - platform: yamaha

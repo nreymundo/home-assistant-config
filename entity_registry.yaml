@@ -1,5 +1,5 @@
 media_player.xbr49x835c:
-  config_entry_id:
+  config_entry_id: be16100015204f39bd886eeb75f7f741
   name:
   platform: cast
   unique_id: 18395659-6529-ae83-3cdc-8c0f6505bd8f
@@ -29,7 +29,7 @@ light.main__color__1:
   platform: hue
   unique_id: 00:17:88:01:02:7a:4a:a1-0b
 media_player.bedroom:
-  config_entry_id:
+  config_entry_id: be16100015204f39bd886eeb75f7f741
   name:
   platform: cast
   unique_id: d665b9e1-4834-03a3-789d-84908be7b098

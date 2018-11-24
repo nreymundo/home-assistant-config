@@ -89,6 +89,7 @@ hue: !include configurations/components/hue.yaml
 influxdb: !include configurations/components/influxdb.yaml
 # Config file for media players
 media_player: !include configurations/components/media_player.yaml
+cast: !include configurations/components/cast.yaml
 # Notification services
 notify: !include configurations/components/notify.yaml
 # List of iFrames to add to the UI
