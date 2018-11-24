@@ -13,3 +13,4 @@
       Main_Zone: "Living Room"
   - platform: ps4
     host: !secret ps4_ip
+    cmd: 'sudo ps4-waker'
