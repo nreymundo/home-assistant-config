@@ -35,6 +35,7 @@ http:
   trusted_proxies: !secret trusted_proxy_ip
   ip_ban_enabled: True
   login_attempts_threshold: 3
+  base_url: https://hass.laucien.com
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -79,6 +80,8 @@ ifttt:
 automation: !include_dir_merge_list configurations/automations
 # Config file for device tracking entries
 device_tracker: !include configurations/components/device_tracker.yaml
+# Asus router entry
+asuswrt: !include configurations/components/asus.yaml
 # Config file for location zones used with device tracking
 zone: !include_dir_merge_list configurations/zones
 # Config file for defining groups

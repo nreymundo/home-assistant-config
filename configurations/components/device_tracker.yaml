@@ -1,11 +1,12 @@
   - platform: asuswrt
     host: !secret router_ip
     username: !secret router_username
-    ssh_key: !secret router_sshkey
+    password: !secret router_password
+    protocol: ssh
     interval_seconds: 10
     consider_home: 0:10
     new_device_defaults:
       track_new_devices: false
       hide_if_away: false
 
-  - platform: owntracks_http
+# - platform: owntracks_http
