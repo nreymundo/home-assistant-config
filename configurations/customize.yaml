@@ -90,25 +90,3 @@ sensor.main__switch:
 # Harmony remote
 remote.living_room:
   friendly_name: "Harmony Hub"
-# System Monitor Sensors
-sensor.disk_use_percent_:
-  friendly_name: "Disk (/) - % Used"
-sensor.last_boot:
-  friendly_name: "Last Boot Date"
-sensor.load_1m:
-  friendly_name: "1m Load Average"
-  icon: mdi:chart-areaspline
-sensor.load_5m:
-  friendly_name: "5m Load Average"
-  icon: mdi:chart-areaspline
-sensor.load_15m:
-  friendly_name: "15m Load Average"
-  icon: mdi:chart-areaspline
-sensor.memory_free:
-  friendly_name: "System Memory - Free"
-sensor.memory_use:
-  friendly_name: "System Memory - Used"
-sensor.memory_use_percent:
-  friendly_name: "System Memory - % Used"
-sensor.swap_use_percent:
-  friendly_name: "Swap - % Used"
