@@ -31,7 +31,7 @@ sensor.home_media_center:
 # SABnzbd
 sensor.sabnzbd_left:
   friendly_name: "[SABnzbd] Download queue size remaining"
-  icon: mdi:disk
+  icon: mdi:harddisk
 sensor.sabnzbd_queue_count:
   friendly_name: "[SABnzbd] Items remaining"
   icon: mdi:format-list-numbers
@@ -40,6 +40,19 @@ sensor.sabnzbd_speed:
   icon: mdi:download
 sensor.sabnzbd_status:
   friendly_name: "[SABnzbd] Status"
+# Asus
+sensor.asuswrt_download:
+  friendly_name: "[Router] Downloaded"
+  icon: mdi:harddisk
+sensor.asuswrt_download_speed:
+  friendly_name: "[Router] Download Speed"
+  icon: mdi:download
+sensor.asuswrt_upload:
+  friendly_name: "[Router] Uploaded"
+  icon: mdi:harddisk
+sensor.asuswrt_upload_speed:
+  friendly_name: "[Router] Upload Speed"
+  icon: mdi:upload
 # Weather
 sensor.pws_feelslike_c:
   friendly_name: "Feels Like"

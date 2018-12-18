@@ -41,6 +41,7 @@ room_bedroom:
     - media_player.bedroom
     - media_player.bedroom_tv
     - sensor.bedroom__switch
+    - climate.zenith_ac
 
 weather_time:
   name: "Time & Weather"
@@ -50,10 +51,13 @@ weather_time:
     - weather.openweathermap
 
 downloaders:
-  name: Download and Media Clients
+  name: 'Networking'  
   entities:
-    - sensor.home_media_center
     - sensor.sabnzbd_left
     - sensor.sabnzbd_queue_count
     - sensor.sabnzbd_speed
     - sensor.sabnzbd_status
+    - sensor.asuswrt_download
+    - sensor.asuswrt_download_speed
+    - sensor.asuswrt_upload
+    - sensor.asuswrt_upload_speed 
