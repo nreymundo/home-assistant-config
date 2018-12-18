@@ -109,3 +109,5 @@ sensor: !include configurations/components/sensor.yaml
 shell_command: !include configurations/components/shell_command.yaml
 # Switches
 switch: !include configurations/components/switch.yaml
+# Climate control
+climate: !include configurations/components/climate.yaml

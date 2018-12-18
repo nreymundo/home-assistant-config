@@ -1,0 +1,18 @@
+  - platform: broadlink
+    name: 'Zenith AC'
+    host: !secret broadlink_mini_bedroom_ip
+    mac: !secret broadlink_mini_bedroom_mac
+    ircodes_ini: 'configurations/broadlink_codes/zenith_ac.ini'
+    default_operation: 'off'
+    default_fan_mode: 'auto'
+    customize:
+      operations:
+        - 'off'
+        - 'cool'
+        - 'heat'
+        - 'dry'
+      fan_modes:
+        - 'low'
+        - 'mid' 
+        - 'high'
+        - 'auto'
