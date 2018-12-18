@@ -3,6 +3,7 @@ people:
   entities:
     - !secret person1
     - !secret person2
+
 room_living:
   name: Living Room
   entities:
@@ -15,6 +16,7 @@ room_living:
     - media_player.sony_bravia_tv
     - media_player.xbr49x835c
     - media_player.playstation_4
+
 room_kitchen:
   name: Kitchen
   entities:
@@ -22,6 +24,7 @@ room_kitchen:
     - light.kitchen__color
     - sensor.kitchen__switch
     - sensor.kitchen_motion_sensor
+
 room_main:
   name: Entrance
   entities:
@@ -29,19 +32,23 @@ room_main:
     - light.main__color__1
     - light.main__color__2
     - sensor.main__switch
+
 room_bedroom:
   name: Bedroom
   entities:
     - light.bedroom
     - light.bedroom__color
     - media_player.bedroom
+    - media_player.bedroom_tv
     - sensor.bedroom__switch
+
 weather_time:
   name: "Time & Weather"
   entities:
     - sun.sun
     - sensor.worldclock_sensor
     - weather.openweathermap
+
 downloaders:
   name: Download and Media Clients
   entities:

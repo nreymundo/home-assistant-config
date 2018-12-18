@@ -10,6 +10,14 @@
       - "Zone_2"
     zone_names:
       Main_Zone: "Living Room"
+
   - platform: ps4
     host: !secret ps4_ip
     cmd: 'sudo ps4-waker'
+
+  - platform: broadlink
+    name: Bedroom TV
+    host: !secret broadlink_mini_bedroom_ip
+    mac: !secret broadlink_mini_bedroom_mac
+    ircodes_ini: configurations/broadlink_codes/samsung_tv.ini
+    ping_host: !secret chromecast_bedroom_ip

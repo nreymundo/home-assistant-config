@@ -107,3 +107,5 @@ sabnzbd: !include configurations/components/sabnzbd.yaml
 sensor: !include configurations/components/sensor.yaml
 # List of shell commands
 shell_command: !include configurations/components/shell_command.yaml
+# Switches
+switch: !include configurations/components/switch.yaml

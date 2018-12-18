@@ -50,6 +50,10 @@ light.hgrp0000000034:
   hidden: true
 light.hgrp0000000110:
   hidden: true
+# Harmony remote
+remote.living_room:
+  friendly_name: "Harmony Hub"
+
 ## Bedroom
 light.bedroom:
   friendly_name: "Lights"
@@ -58,6 +62,9 @@ light.bedroom__color:
   hidden: true
 sensor.bedroom__switch:
   friendly_name: "Light Switch"
+media_player.bedroom_tv: 
+  friendly_name: "Bedroom TV"
+
 ## Kitchen
 light.kitchen:
   friendly_name: "Lights"
@@ -68,6 +75,7 @@ sensor.kitchen__switch:
   friendly_name: "Light Switch"
 sensor.kitchen_motion_sensor:
   friendly_name: "Motion Sensor"
+
 ## Living Room
 light.living:
   friendly_name: "Lights"
@@ -76,6 +84,7 @@ light.living__color:
   hidden: true
 sensor.living__switch:
   friendly_name: "Light Switch"
+
 ## Entrance
 light.main:
   friendly_name: "Lights"
@@ -87,6 +96,3 @@ light.main__color__2:
   hidden: true
 sensor.main__switch:
   friendly_name: "Light Switch"
-# Harmony remote
-remote.living_room:
-  friendly_name: "Harmony Hub"

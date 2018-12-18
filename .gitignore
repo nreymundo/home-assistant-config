@@ -3,6 +3,7 @@
 !*.yaml
 !configurations
 !configurations/*
+!configurations/broadlink_codes/*
 !custom_components
 !custom_components/*
 !custom_components/sensor/*
