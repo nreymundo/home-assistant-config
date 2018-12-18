@@ -8,6 +8,7 @@
 !custom_components/*
 !custom_components/sensor/*
 !custom_components/media_player/*
+!custom_components/climate/*
 !.gitignore
 !travis_stuff
 !travis_stuff/*
