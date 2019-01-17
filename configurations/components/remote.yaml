@@ -1,4 +1,4 @@
   - platform: harmony
-    name: Living Room
+    name: 'Living Room'
     host: !secret harmony_ip
     activity: Watch TV

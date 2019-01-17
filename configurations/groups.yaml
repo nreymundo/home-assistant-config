@@ -24,6 +24,7 @@ room_kitchen:
     - light.kitchen__color
     - sensor.kitchen__switch
     - sensor.kitchen_motion_sensor
+    - sensor.kitchen_temperature
 
 room_main:
   name: Entrance

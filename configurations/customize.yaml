@@ -88,6 +88,8 @@ sensor.kitchen__switch:
   friendly_name: "Light Switch"
 sensor.kitchen_motion_sensor:
   friendly_name: "Motion Sensor"
+sensor.kitchen_temperature:
+  icon: mdi:temperature-celsius
 
 ## Living Room
 light.living:

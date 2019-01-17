@@ -5,6 +5,10 @@
       living_room_activity:
         value_template: '{{ states.remote.living_room.attributes.current_activity }}'
         friendly_name: 'Current Activity'
+      kitchen_temperature:
+        unit_of_measurement: "°C"
+        value_template: "{{ state_attr('sensor.kitchen_motion_sensor', 'temperature') }}"
+        friendly_name: "Kitchen Temp"
   - platform: hue
     ip_address: !secret hue_ip
     token: !secret hue_token
