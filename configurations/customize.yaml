@@ -1,33 +1,75 @@
-# Groups
-group.all_automations:
-  friendly_name: Automations
-  hidden: false
-group.all_scripts:
-  friendly_name: Scripts
-  control: hidden
-  hidden: false
-# Media players
+#####################################
+####### Rooms related devices #######
+#####################################
+## Bedroom
+light.bedroom:
+  friendly_name: "Lights"
+light.bedroom__color:
+  friendly_name: "Hue Color 1"
+  hidden: true
+sensor.bedroom_switch:
+  friendly_name: "Light Switch"
+media_player.bedroom_tv: 
+  friendly_name: "Bedroom TV"
 media_player.bedroom:
   friendly_name: Chromecast - Bedroom
-# Sony Bravia TV
+
+## Kitchen
+light.kitchen:
+  friendly_name: "Lights"
+light.kitchen__color:
+  friendly_name: "Hue Color 1"
+  hidden: true
+sensor.kitchen_switch:
+  friendly_name: "Light Switch"
+sensor.kitchen_motion_sensor:
+  friendly_name: "Motion Sensor"
+sensor.kitchen_temperature:
+  icon: mdi:temperature-celsius
+
+## Living Room
+light.living:
+  friendly_name: "Lights"
+light.living__color:
+  friendly_name: "Hue Color 1"
+  hidden: true
+sensor.living_switch:
+  friendly_name: "Light Switch"
 media_player.xbr49x835c:
   friendly_name: Chromecast - XBR-49X835C
   hidden: true
 media_player.sony_bravia_tv:
   friendly_name: XBR-49X835C
   icon: mdi:television
-# Yamaha A/V Receiver
 media_player.yamaha_receiver_living_room:
   friendly_name: "A/V Receiver"
   icon: mdi:play-network
-# Sun
-sun.sun:
-  friendly_name: "Sun's Position"
-# Misc Sensors
-sensor.worldclock_sensor:
-  friendly_name: Current Time
-sensor.home_media_center:
-  icon: mdi:play-box-outline
+remote.living_room:
+  friendly_name: "Harmony Hub"
+
+## Entrance
+light.main:
+  friendly_name: "Lights"
+light.main__color__1:
+  friendly_name: "Hue Color 1"
+  hidden: true
+light.main__color__2:
+  friendly_name: "Hue Color 2"
+  hidden: true
+sensor.main_switch:
+  friendly_name: "Light Switch"
+light.hgrp_0000000034:
+  hidden: true
+light.hgrp_0000000110:
+  hidden: true
+#####################################
+
+
+
+#####################################
+############# Networking ############
+#####################################
+# Travis
 sensor.nreymundo_home_assistant_config_last_build_duration:
   friendly_name: "[Travis] Last Build Duration"
 sensor.nreymundo_home_assistant_config_last_build_finished_at:
@@ -65,61 +107,28 @@ sensor.asuswrt_upload:
 sensor.asuswrt_upload_speed:
   friendly_name: "[Router] Upload Speed"
   icon: mdi:upload
+#####################################
+
+
+####################################
+############### Misc ###############
+####################################
+# Groups
+group.all_automations:
+  friendly_name: Automations
+  hidden: false
+group.all_scripts:
+  friendly_name: Scripts
+  control: hidden
+  hidden: false
+# Misc Sensors
+sun.sun:
+  friendly_name: "Sun's Position"
+sensor.worldclock_sensor:
+  friendly_name: Current Time
 # Weather
 sensor.pws_feelslike_c:
   friendly_name: "Feels Like"
 sensor.pws_weather_1d_metric:
   friendly_name: "24 Hour Forecast"
-# Hue stuff
-light.hgrp_0000000034:
-  hidden: true
-light.hgrp_0000000110:
-  hidden: true
-# Harmony remote
-remote.living_room:
-  friendly_name: "Harmony Hub"
-
-## Bedroom
-light.bedroom:
-  friendly_name: "Lights"
-light.bedroom__color:
-  friendly_name: "Hue Color 1"
-  hidden: true
-sensor.bedroom_switch:
-  friendly_name: "Light Switch"
-media_player.bedroom_tv: 
-  friendly_name: "Bedroom TV"
-
-## Kitchen
-light.kitchen:
-  friendly_name: "Lights"
-light.kitchen__color:
-  friendly_name: "Hue Color 1"
-  hidden: true
-sensor.kitchen_switch:
-  friendly_name: "Light Switch"
-sensor.kitchen_motion_sensor:
-  friendly_name: "Motion Sensor"
-sensor.kitchen_temperature:
-  icon: mdi:temperature-celsius
-
-## Living Room
-light.living:
-  friendly_name: "Lights"
-light.living__color:
-  friendly_name: "Hue Color 1"
-  hidden: true
-sensor.living_switch:
-  friendly_name: "Light Switch"
-
-## Entrance
-light.main:
-  friendly_name: "Lights"
-light.main__color__1:
-  friendly_name: "Hue Color 1"
-  hidden: true
-light.main__color__2:
-  friendly_name: "Hue Color 2"
-  hidden: true
-sensor.main_switch:
-  friendly_name: "Light Switch"
+####################################
