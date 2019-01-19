@@ -89,7 +89,7 @@ group: !include configurations/groups.yaml
 # Philip Hue settings file
 hue: !include configurations/components/hue.yaml
 # InfluxDB setting file
-influxdb: !include configurations/components/influxdb.yaml
+# influxdb: !include configurations/components/influxdb.yaml
 # Config file for media players
 media_player: !include configurations/components/media_player.yaml
 cast: !include configurations/components/cast.yaml
