@@ -62,3 +62,14 @@ downloaders:
     - sensor.asuswrt_download_speed
     - sensor.asuswrt_upload
     - sensor.asuswrt_upload_speed 
+ 
+cicd:
+  name: 'Build Info'
+  entities:
+    - sensor.nreymundo_home_assistant_config_last_build_duration
+    - sensor.nreymundo_home_assistant_config_last_build_finished_at
+    - sensor.nreymundo_home_assistant_config_last_build_id
+    - sensor.nreymundo_home_assistant_config_last_build_started_at
+    - sensor.nreymundo_home_assistant_config_last_build_state
+    - sensor.nreymundo_home_assistant_config_state
+      

@@ -12,3 +12,6 @@
   - platform: hue
     ip_address: !secret hue_ip
     token: !secret hue_token
+  - platform: travisci
+    api_key: !secret travis_github_token
+    repository: nreymundo/home-assistant-config

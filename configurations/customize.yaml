@@ -28,6 +28,18 @@ sensor.worldclock_sensor:
   friendly_name: Current Time
 sensor.home_media_center:
   icon: mdi:play-box-outline
+sensor.nreymundo_home_assistant_config_last_build_duration:
+  friendly_name: "[Travis] Last Build Duration"
+sensor.nreymundo_home_assistant_config_last_build_finished_at:
+  friendly_name: "[Travis] Last Build Finished At"
+sensor.nreymundo_home_assistant_config_last_build_id:
+  friendly_name: "[Travis] Last Build ID"
+sensor.nreymundo_home_assistant_config_last_build_started_at:
+  friendly_name: "[Travis] Last Build Started At"
+sensor.nreymundo_home_assistant_config_last_build_state:
+  friendly_name: "[Travis] Last Build State"
+sensor.nreymundo_home_assistant_config_state:
+  friendly_name: "[Travis] State"
 # SABnzbd
 sensor.sabnzbd_left:
   friendly_name: "[SABnzbd] Download queue size remaining"
