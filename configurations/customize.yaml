@@ -59,9 +59,9 @@ sensor.pws_feelslike_c:
 sensor.pws_weather_1d_metric:
   friendly_name: "24 Hour Forecast"
 # Hue stuff
-light.hgrp0000000034:
+light.hgrp_0000000034:
   hidden: true
-light.hgrp0000000110:
+light.hgrp_0000000110:
   hidden: true
 # Harmony remote
 remote.living_room:
@@ -73,7 +73,7 @@ light.bedroom:
 light.bedroom__color:
   friendly_name: "Hue Color 1"
   hidden: true
-sensor.bedroom__switch:
+sensor.bedroom_switch:
   friendly_name: "Light Switch"
 media_player.bedroom_tv: 
   friendly_name: "Bedroom TV"
@@ -84,7 +84,7 @@ light.kitchen:
 light.kitchen__color:
   friendly_name: "Hue Color 1"
   hidden: true
-sensor.kitchen__switch:
+sensor.kitchen_switch:
   friendly_name: "Light Switch"
 sensor.kitchen_motion_sensor:
   friendly_name: "Motion Sensor"
@@ -97,7 +97,7 @@ light.living:
 light.living__color:
   friendly_name: "Hue Color 1"
   hidden: true
-sensor.living__switch:
+sensor.living_switch:
   friendly_name: "Light Switch"
 
 ## Entrance
@@ -109,5 +109,5 @@ light.main__color__1:
 light.main__color__2:
   friendly_name: "Hue Color 2"
   hidden: true
-sensor.main__switch:
+sensor.main_switch:
   friendly_name: "Light Switch"

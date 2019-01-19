@@ -10,7 +10,7 @@ room_living:
     - sensor.living_room_activity
     - light.living
     - light.living__color
-    - sensor.living__switch
+    - sensor.living_switch
     - media_player.yamaha_receiver_living_room
     - remote.living_room
     - media_player.sony_bravia_tv
@@ -22,7 +22,7 @@ room_kitchen:
   entities:
     - light.kitchen
     - light.kitchen__color
-    - sensor.kitchen__switch
+    - sensor.kitchen_switch
     - sensor.kitchen_motion_sensor
     - sensor.kitchen_temperature
 
@@ -32,7 +32,7 @@ room_main:
     - light.main
     - light.main__color__1
     - light.main__color__2
-    - sensor.main__switch
+    - sensor.main_switch
 
 room_bedroom:
   name: Bedroom
@@ -41,7 +41,7 @@ room_bedroom:
     - light.bedroom__color
     - media_player.bedroom
     - media_player.bedroom_tv
-    - sensor.bedroom__switch
+    - sensor.bedroom_switch
     - climate.zenith_ac
 
 weather_time:
