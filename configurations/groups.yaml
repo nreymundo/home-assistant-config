@@ -1,3 +1,23 @@
+default_view:
+  view: true
+  icon: mdi:home
+  entities:
+    - group.people
+    - group.room_living
+    - group.room_kitchen
+    - group.room_main
+    - group.room_bedroom
+    - group.weather_time
+
+utils:
+  view: true
+  name: 'Utils'
+  entities:
+    - group.downloaders
+    - group.all_scripts
+    - group.all_automations
+    - group.cicd
+
 people:
   name: People Living Here
   entities:
