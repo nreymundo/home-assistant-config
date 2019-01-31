@@ -12,8 +12,10 @@
       Main_Zone: "Living Room"
 
   - platform: ps4
-    host: !secret ps4_ip
-    cmd: 'sudo ps4-waker'
+    host: !secret ps4_waker_url
+    ps4_ip: !secret ps4_ip
+    name: 'Playstation 4'
+    games_filename: '/config/configurations/ps4/.ps4-games.json'
 
   - platform: broadlink
     name: Bedroom TV
