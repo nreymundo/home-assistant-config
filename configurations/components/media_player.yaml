@@ -19,7 +19,7 @@
 
   - platform: broadlink
     name: Bedroom TV
-    host: !secret broadlink_mini_bedroom_ip
-    mac: !secret broadlink_mini_bedroom_mac
+    host: !secret broadlink_mini_livingroom_ip
+    mac: !secret broadlink_mini_livingroom_mac
     ircodes_ini: configurations/broadlink_codes/samsung_tv.ini
     ping_host: !secret chromecast_bedroom_ip

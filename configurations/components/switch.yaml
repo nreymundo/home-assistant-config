@@ -1,4 +1,4 @@
   - platform: broadlink
-    host: !secret broadlink_mini_bedroom_ip
-    mac: !secret broadlink_mini_bedroom_mac
+    host: !secret broadlink_mini_livingroom_ip
+    mac: !secret broadlink_mini_livingroom_mac
     type: rm_mini
