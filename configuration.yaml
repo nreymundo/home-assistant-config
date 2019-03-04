@@ -105,9 +105,15 @@ script: !include_dir_merge_named configurations/scripts
 #sabnzbd: !include configurations/components/sabnzbd.yaml
 # Sensor entries and configurations
 sensor: !include configurations/components/sensor.yaml
+binary_sensor: !include configurations/components/binary_sensor.yaml
 # List of shell commands
 shell_command: !include configurations/components/shell_command.yaml
 # Switches
 switch: !include configurations/components/switch.yaml
 # Climate control
 climate: !include configurations/components/climate.yaml
+
+# System health info
+system_health:
+# SmartIR component for broadlink IR emitters
+smartir:

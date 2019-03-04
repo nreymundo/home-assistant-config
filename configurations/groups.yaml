@@ -29,20 +29,20 @@ room_living:
   entities:
     - sensor.living_room_activity
     - light.living
-    - light.living__color
+    - light.living_color
     - sensor.living_switch
-    - climate.philco_ac
+    - climate.living_room_ac
     - media_player.yamaha_receiver_living_room
     - remote.living_room
     - media_player.sony_bravia_tv
     - media_player.xbr49x835c
-    - media_player.playstation_4
+#    - media_player.playstation_4
 
 room_kitchen:
   name: Kitchen
   entities:
     - light.kitchen
-    - light.kitchen__color
+    - light.kitchen_color
     - sensor.kitchen_switch
     - sensor.kitchen_motion_sensor
     - sensor.kitchen_temperature
@@ -51,19 +51,19 @@ room_main:
   name: Entrance
   entities:
     - light.main
-    - light.main__color__1
-    - light.main__color__2
+    - light.main_color_1
+    - light.main_color_2
     - sensor.main_switch
 
 room_bedroom:
   name: Bedroom
   entities:
     - light.bedroom
-    - light.bedroom__color
+    - light.bedroom_color
     - media_player.bedroom
     - media_player.bedroom_tv
     - sensor.bedroom_switch
-    - climate.zenith_ac
+    - climate.bedroom_ac
 
 weather_time:
   name: "Time & Weather"

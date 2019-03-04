@@ -4,7 +4,7 @@
 ## Bedroom
 light.bedroom:
   friendly_name: "Lights"
-light.bedroom__color:
+light.bedroom_color:
   friendly_name: "Hue Color 1"
   hidden: true
 sensor.bedroom_switch:
@@ -17,7 +17,7 @@ media_player.bedroom:
 ## Kitchen
 light.kitchen:
   friendly_name: "Lights"
-light.kitchen__color:
+light.kitchen_color:
   friendly_name: "Hue Color 1"
   hidden: true
 sensor.kitchen_switch:
@@ -30,7 +30,7 @@ sensor.kitchen_temperature:
 ## Living Room
 light.living:
   friendly_name: "Lights"
-light.living__color:
+light.living_color:
   friendly_name: "Hue Color 1"
   hidden: true
 sensor.living_switch:
@@ -50,10 +50,10 @@ remote.living_room:
 ## Entrance
 light.main:
   friendly_name: "Lights"
-light.main__color__1:
+light.main_color_1:
   friendly_name: "Hue Color 1"
   hidden: true
-light.main__color__2:
+light.main_color_2:
   friendly_name: "Hue Color 2"
   hidden: true
 sensor.main_switch:

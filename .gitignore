@@ -1,17 +1,31 @@
+# Ignores everything.
 *
+
+# Includes gitignore
+!.gitignore
+
+# Includes all yml/yaml files.
 !.travis.yml
 !*.yaml
-!configurations
+
+# Includes a especial folder with all my configs inside.
 !configurations/*
-!configurations/broadlink_codes/*
+
+# Including custom components subfolders
 !custom_components
 !custom_components/*
-!custom_components/sensor/*
-!custom_components/media_player/*
-!custom_components/climate/*
-!.gitignore
+!custom_components/hue
+!custom_components/hue/*
+!custom_components/ps4
+!custom_components/ps4/*
+!custom_components/smartir
+!custom_components/smartir/*
+
+# TravisCI additional files.
 !travis_stuff
 !travis_stuff/*
+
+# Making double sure these files are ignored. 
 secrets.yaml
 known_devices.yaml
 __pycache__

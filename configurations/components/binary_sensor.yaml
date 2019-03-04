@@ -1,0 +1,4 @@
+  - platform: ping
+    name: Bedroom TV
+    host: !secret chromecast_bedroom_ip
+    scan_interval: 10

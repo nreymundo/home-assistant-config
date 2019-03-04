@@ -11,15 +11,14 @@
     zone_names:
       Main_Zone: "Living Room"
 
-  - platform: ps4
-    host: !secret ps4_waker_url
-    ps4_ip: !secret ps4_ip
-    name: 'Playstation 4'
-    games_filename: '/config/configurations/ps4/.ps4-games.json'
+# - platform: ps4
+#   host: !secret ps4_waker_url
+#   ps4_ip: !secret ps4_ip
+#   name: 'Playstation 4'
+#   games_filename: '/config/configurations/ps4/.ps4-games.json'
 
-  - platform: broadlink
+  - platform: smartir
     name: Bedroom TV
-    host: !secret broadlink_mini_livingroom_ip
-    mac: !secret broadlink_mini_livingroom_mac
-    ircodes_ini: configurations/broadlink_codes/samsung_tv.ini
-    ping_host: !secret chromecast_bedroom_ip
+    device_code: 1060
+    controller_send_service: switch.broadlink_send_packet_192_168_1_253
+    power_sensor: binary_sensor.bedroom_tv

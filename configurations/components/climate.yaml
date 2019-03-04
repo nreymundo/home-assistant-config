@@ -1,36 +1,8 @@
-  - platform: broadlink
-    name: 'Zenith AC'
-    host: !secret broadlink_mini_livingroom_ip
-    mac: !secret broadlink_mini_livingroom_mac
-    ircodes_ini: 'configurations/broadlink_codes/zenith_ac.ini'
-    default_operation: 'off'
-    default_fan_mode: 'auto'
-    customize:
-      operations:
-        - 'off'
-        - 'cool'
-        - 'heat'
-        - 'dry'
-      fan_modes:
-        - 'low'
-        - 'mid' 
-        - 'high'
-        - 'auto'
-  - platform: broadlink
-    name: 'Philco AC'
-    host: !secret broadlink_mini_livingroom_ip
-    mac: !secret broadlink_mini_livingroom_mac
-    ircodes_ini: 'configurations/broadlink_codes/philco_ac.ini'
-    default_operation: 'off'
-    default_fan_mode: 'auto'
-    customize:
-      operations:
-        - 'off'
-        - 'cool'
-        - 'heat'
-        - 'dry'
-      fan_modes:
-        - 'low'
-        - 'mid' 
-        - 'high'
-        - 'auto'
+  - platform: smartir
+    name: 'Bedroom AC'
+    device_code: 9990
+    controller_send_service: switch.broadlink_send_packet_192_168_1_253
+  - platform: smartir
+    name: 'Living Room AC'
+    device_code: 9990
+    controller_send_service: switch.broadlink_send_packet_192_168_1_253
