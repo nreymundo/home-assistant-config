@@ -7,8 +7,6 @@ light.bedroom:
 light.bedroom_color:
   friendly_name: "Hue Color 1"
   hidden: true
-sensor.bedroom_switch:
-  friendly_name: "Light Switch"
 media_player.bedroom_tv: 
   friendly_name: "Bedroom TV"
 media_player.bedroom:
@@ -20,10 +18,6 @@ light.kitchen:
 light.kitchen_color:
   friendly_name: "Hue Color 1"
   hidden: true
-sensor.kitchen_switch:
-  friendly_name: "Light Switch"
-sensor.kitchen_motion_sensor:
-  friendly_name: "Motion Sensor"
 sensor.kitchen_temperature:
   icon: mdi:temperature-celsius
 
@@ -33,8 +27,6 @@ light.living:
 light.living_color:
   friendly_name: "Hue Color 1"
   hidden: true
-sensor.living_switch:
-  friendly_name: "Light Switch"
 media_player.xbr49x835c:
   friendly_name: Chromecast - XBR-49X835C
   hidden: true
@@ -56,8 +48,6 @@ light.main_color_1:
 light.main_color_2:
   friendly_name: "Hue Color 2"
   hidden: true
-sensor.main_switch:
-  friendly_name: "Light Switch"
 light.hgrp_0000000034:
   hidden: true
 light.hgrp_0000000110:
